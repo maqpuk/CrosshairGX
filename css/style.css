@@ -23,6 +23,220 @@ a:hover {
     color: #928cd4;
 }
 
+
+
+
+
+/*  maf changes  */ 
+
+
+
+
+/* glass css */
+
+.glass {
+    content: '';
+    background: inherit;
+    box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.3);
+    filter: blur(10px);
+    overflow: hidden;
+}
+
+/* glass end*/
+
+
+
+
+
+/* button css */
+
+.button-30 {
+    align-items: center;
+    appearance: none;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border-width: 0;
+    box-shadow: rgba(255, 255, 255, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #665dc3;
+    cursor: pointer;
+    display: inline-flex;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 18px;
+    padding-right: 18px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s, transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 16px;
+    font-weight: 500;
+    width: 160px;
+    margin-top: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media (max-width: 300px) {
+    .button-30 {
+        width: 100px;
+    }
+}
+
+.button-30:focus {
+    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+.button-30:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+/* button end*/
+
+
+
+
+
+
+
+.logo {
+    width: 50px;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    position: inherit;
+    z-index: 0;
+}
+
+.description {
+    margin-top: 40px;
+}
+
+.panels {
+    margin-top: 70px;
+    margin-bottom: 55px;
+    background-color: #eeeeee;
+    box-shadow: rgb(255 255 255 / 40%) 0 2px 4px, rgb(45 35 66 / 30%) 0px 0px 20px 4px, #d6d6e7 0 -3px 0 inset;
+    padding: 10px;
+    border-radius: 16px;
+    height: 570px;
+}
+
+
+.prei {
+    font-size: 35px;
+}
+
+.prei a {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+.adv {
+    padding: 6px;
+    color: #36395A;
+    font-size: 20px;
+    line-height: 2.1rem;
+    font-weight: 500;
+}
+
+.vers {
+    margin-bottom: 30px;
+    margin-top: -44px;
+}
+
+.yt {
+    margin-top: 60px;
+}
+
+.yt img {
+    width: 100%;
+}
+
+.windows{
+    display: flex;
+}
+.win-block{
+    width: 45px;
+    height: 45px;
+    margin-left: 12px;
+}
+
+.versions ul{
+    list-style: none;
+}
+
+.versions {
+    margin-bottom: 90px;
+}
+
+.last {
+    font-size: 20px;
+}
+
+.last-data {
+    margin-left: 10px;
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+.descr {
+    font-size: 20px;
+}
+
+.demo h1 {
+    font-size: 30px;
+}
+
+.demo a {
+    font-size: 30px
+}
+
+.ac {
+    margin-top: 15px;
+}
+
+.ach {
+    font-size: 30px;
+}
+
+.achh {
+    font-family: &#39;Ubuntu&#39;, sans-serif;
+}
+
+.anti-cheat {
+    align-items: center;
+}
+
+.work {
+    margin-top: 15px;
+}
+
+.work-h1 {
+    font-size: 30px;
+}
+
+
+/*  end   */
+
+
 body {
     background: #eeeeee;
     /* background-image: url("https://i.pinimg.com/originals/63/55/d2/6355d29e494191bafa64b2a6a874513c.jpg");
@@ -73,7 +287,6 @@ div {
     left: 0;
     right: 0;
     bottom: 0;
-    content: '';
     opacity: .17;
     /* background: #37373c; */
     /* background: -webkit-linear-gradient(45deg, #333333 0%, #1e1e1e 100%); */
@@ -170,11 +383,14 @@ div {
 
 .h1_def {
     display: block;
+
     font-size: 70px;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    padding: 0;
+    margin: 0;
+        margin-block-start: 0.67em;
+        margin-block-end: 0.67em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
     font-weight: bold;
     line-height: 1.2;
     font-weight: 200;
